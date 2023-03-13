@@ -1,0 +1,155 @@
+@font-face {
+    font-family: 'opendyslexicregular';
+
+    src: url('../font/OpenDyslexic-Regular.otf') format('otf'),
+             url('../font/opendyslexic-regular-webfont.woff') format('woff'),
+         url('../font/opendyslexic-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body {
+    font-family: 'opendyslexicregular';
+
+}
+#home {
+	background-image: url(../medias/background.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+#homedyslexie {
+  background-image: url('https://assets.codepen.io/1462889/back-page.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 101%;
+}
+
+#menu img{
+width: 60%;
+	vertical-align: middle;
+
+
+}
+
+#menu {
+	position: absolute;
+	text-align: center;
+			top: 25%;
+
+}
+
+#menu .dys {
+	position: absolute;
+	width: 15%;
+}
+
+#dyslexie {
+	top: -100px;
+	left: 50%;
+}
+#dysphasie {
+	top: 83%;
+	left: 46%;
+}
+
+#dyspraxie {
+		top: 35%;
+	left: 72%;
+}
+
+.rurutop  {
+	position: absolute;
+top:0;
+left:0;
+}
+
+
+.rurubottom {
+	position: absolute;
+	right: 0;
+bottom: 0;
+}
+
+#rurubottom, #rurutop {
+	width: 400px;
+}
+
+
+
+#bulletop {
+	position: absolute;
+	top: 25%;
+	left: 90%;
+	width: 600px
+
+}
+
+#bullebottom {
+	position: absolute;
+	bottom: 50%;
+	right: 90%;
+		width: 600px
+
+}
+
+
+ul {
+	display: block;
+}
+
+
+
+
+
+#reponses {
+	list-style-type: none;
+}
+
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.flex-container > div {
+  width: 296px;
+  margin: 10px;
+  text-align: center;
+
+}
+
+.flex-container img {
+	width: 165px;
+}
+
+.numero_situation {
+	text-align: center;
+	font-size: 56px;
+}
+.reponses {
+	display: flex;
+	    justify-content: center;
+
+}
+.reponses > li {
+	display: block;
+	border: solid purple;
+	width: 200px;
+	height: 200px;
+	list-style-type: none;
+	margin: 10px;
+	text-align: center;
+line-height: 200px;}
+
+
+#answer {
+	position: absolute;
+	background-color: green;
+	line-height: 30px;
+text-align: center;
+    top: 63%;
+    width: 57%;
+}
+

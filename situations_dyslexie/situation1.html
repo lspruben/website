@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../css/style.css" />
+  
+
+    <title>Les supers pouvoirs de Ruben</title>
+</head>
+
+<body id="homedyslexie">
+    
+<nav>
+    <ul>
+        <li>
+            <a href="../index.html">Accueil</a>
+        </li>
+        <li><a href="../dyslexie.html">Choisi une autre situation</a></li>
+    </ul>
+</nav>
+
+ <div>
+
+    <p class="numero_situation">Situation n°1 </p>
+<ul class="reponses">
+    <li>
+      Réponse 1
+    </li>
+     <li onclick="showStuff('answer'); return false;">
+      Réponse 2<td class="post">
+
+  
+
+    </li>
+     <li>
+        Réponse 3
+    </li>
+ <span id="answer" style="display: none;">
+   Bravo tu as trouvé la bonne réponse !
+  </span>
+</ul>
+
+
+</div>
+
+</body>
+<script type="text/javascript">
+ function showStuff(id) {
+  document.getElementById(id).style.display = 'block';
+id.style.display = 'none';
+}
+
+</script>
+</html>
+
+
+
