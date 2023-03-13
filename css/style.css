@@ -133,9 +133,8 @@ color: #323333}
 }
 .box {
   width: 20%;
-  margin: 0 auto;
+  margin: 0 15px;
   background: rgba(255,255,255,0.2);
-  padding: 35px;
   border: 2px solid #fff;
   border-radius: 20px/50px;
   background-clip: padding-box;
