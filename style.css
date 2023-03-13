@@ -1,0 +1,242 @@
+@font-face {
+    font-family: 'opendyslexicregular';
+
+    src: url('../font/OpenDyslexic-Regular.otf') format('otf'),
+             url('../font/opendyslexic-regular-webfont.woff') format('woff'),
+         url('../font/opendyslexic-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body {
+    font-family: 'opendyslexicregular';
+
+}
+#home {
+	background-image: url(../medias/background.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+#menu img{
+width: 60%;
+	vertical-align: middle;
+
+
+}
+
+#menu {
+	position: absolute;
+	text-align: center;
+			top: 25%;
+
+}
+
+#menu .dys {
+	position: absolute;
+	width: 15%;
+}
+
+#dyslexie {
+	top: -100px;
+	left: 50%;
+}
+#dysphasie {
+	top: 83%;
+	left: 46%;
+}
+
+#dyspraxie {
+		top: 35%;
+	left: 72%;
+}
+
+
+
+/*situation 1 */ 
+
+ul {
+	display: block;
+}
+
+#reponses {
+	list-style-type: none;
+}
+
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex-container > div {
+  width: 296px;
+  margin: 10px;
+  text-align: center;
+
+}
+
+.flex-container img {
+	width: 165px;
+}
+
+.numero_situation {
+	text-align: center;
+	font-size: 56px;
+}
+.reponses {
+	display: flex;
+	    justify-content: center;
+
+}
+.reponses > li {
+	display: block;
+	border: solid purple;
+	width: 200px;
+	height: 200px;
+	list-style-type: none;
+	margin: 10px;
+	text-align: center;
+line-height: 200px;}
+
+
+#answer {
+	position: absolute;
+	background-color: green;
+	line-height: 30px;
+text-align: center;
+    top: 70%;
+    width: 57%;
+}
+
+
+		/*MENU */
+
+nav ul{
+	list-style-type: none;
+    position: absolute;
+}
+a {
+	text-decoration: none;
+color: #323333}
+
+
+/* Situation 2*/
+
+.box_reponse_dyslexie, .box_reponse_dysphasie, .box_reponse_dyspraxie
+{
+	  display: flex;
+  flex-wrap: wrap;
+    justify-content: center;
+    padding:100px;
+}
+.box {
+  width: 20%;
+  margin: 0 15px;
+  background: rgba(255,255,255,0.2);
+  border: 2px solid #fff;
+  border-radius: 20px/50px;
+  background-clip: padding-box;
+  text-align: center;
+}
+
+.box_reponse_dyslexie .button {
+  font-size: 1em;
+  padding: 50px;
+  color: purple;
+  border: 2px solid purple;
+  border-radius: 50px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.box_reponse_dyslexie .button:hover {
+  background: purple;
+  color: #fff;
+}
+
+.box_reponse_dysphasie .button {
+  font-size: 1em;
+  padding: 50px;
+  color: #323333;
+  border: 2px solid #323333;
+  border-radius: 50px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.box_reponse_dysphasie .button:hover {
+  background: #323333;
+  color: #fff;
+}
+
+.box_reponse_dyspraxie .button {
+  font-size: 1em;
+  padding: 50px;
+  color: #40817E;
+  border: 2px solid #40817E;
+  border-radius: 50px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.box_reponse_dyspraxie .button:hover {
+  background: #40817E;
+  color: #fff;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 170px auto;
+  padding: 30px;
+  background: #fff;
+  border-radius: 5px;
+  width: 67%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}
