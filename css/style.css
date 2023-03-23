@@ -1,15 +1,6 @@
-@font-face {
-    font-family: 'opendyslexicregular';
 
-    src: url('../font/OpenDyslexic-Regular.otf') format('otf'),
-             url('../font/opendyslexic-regular-webfont.woff') format('woff'),
-         url('../font/opendyslexic-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
 body {
-    font-family: 'opendyslexicregular';
+  font-family: Tahoma, Arial, sans-serif;
 
 }
 #home {
@@ -71,7 +62,7 @@ ul {
 }
 
 .flex-container > div {
-  width: 296px;
+  width: 213px;
   margin: 10px;
   text-align: center;
 
@@ -84,6 +75,11 @@ ul {
 .numero_situation {
 	text-align: center;
 	font-size: 56px;
+	padding-top: 100px;
+}
+h4 {
+		text-align: center;
+
 }
 .reponses {
 	display: flex;
@@ -143,7 +139,7 @@ color: #323333}
 
 .box_reponse_dyslexie .button {
   font-size: 1em;
-  padding: 50px;
+  padding: 25px;
   color: purple;
   border: 2px solid purple;
   border-radius: 50px;
@@ -158,7 +154,7 @@ color: #323333}
 
 .box_reponse_dysphasie .button {
   font-size: 1em;
-  padding: 50px;
+  padding: 25px;
   color: #323333;
   border: 2px solid #323333;
   border-radius: 50px;
@@ -173,7 +169,7 @@ color: #323333}
 
 .box_reponse_dyspraxie .button {
   font-size: 1em;
-  padding: 50px;
+  padding: 25px;
   color: #40817E;
   border: 2px solid #40817E;
   border-radius: 50px;
