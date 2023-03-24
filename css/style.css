@@ -56,6 +56,8 @@ ul {
 
 
 .flex-container {
+	position: absolute;
+	top: 100px;
   display: flex;
   flex-wrap: wrap;
     justify-content: center;
@@ -76,6 +78,7 @@ ul {
 	text-align: center;
 	font-size: 56px;
 	padding-top: 100px;
+	margin-top: 0;
 }
 h4 {
 		text-align: center;
@@ -107,16 +110,34 @@ text-align: center;
 }
 
 
+
 		/*MENU */
 
 nav ul{
 	list-style-type: none;
     position: absolute;
+    display: flex;
+    flex-direction: row;
 }
+nav li {
+	background-color: grey;
+	padding: 10px;
+	margin-right: 15px;
+}
+
 a {
 	text-decoration: none;
-color: #323333}
+color: #fff}
 
+i {
+  font-size: 18px;
+  margin-right: 10px;
+  color: #FFF;
+}
+
+.icon{
+  margin-right: 8px;
+}
 
 /* Situation 2*/
 
