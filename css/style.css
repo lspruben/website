@@ -232,6 +232,7 @@ i {
   margin-top: 0;
   color: #333;
   font-family: Tahoma, Arial, sans-serif;
+  text-align: center;
 }
 .popup .close {
   position: absolute;
@@ -247,6 +248,8 @@ i {
 .popup .content {
   max-height: 30%;
   overflow: auto;
+  text-align: center;
+  line-height: 30px;
 }
 
 @media screen and (max-width: 700px){
@@ -257,3 +260,26 @@ i {
     width: 70%;
   }
 }
+
+.fa-circle-check, .fa-circle-xmark {
+	position: relative;
+left: 40%;
+margin-bottom:20px;
+	font-size: 150px;
+text-align: center;
+}
+
+.fa-circle-check {
+	color: #48ad59;
+
+}
+
+
+.fa-circle-xmark {
+	color: #a30f0f;}
+
+	.teteruben{
+		position: relative;
+		width: 150px;
+			margin-bottom:20px;
+left: 40%}
